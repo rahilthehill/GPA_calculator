@@ -1,0 +1,139 @@
+:root {
+    --background-light: #ffffffc8;
+    --background-dark: #000000e8;
+    --text-light: #000;
+    --text-dark: #fff;
+    --primary-color: #000000bc;
+    --secondary-color: #f44336;
+    --info-box-color: #ffffff20;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  label{
+    /* margin: 10px; */
+    transition: all .3s;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.377) ;
+    color:white;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  #class-form{
+    background-color: var(--info-box-color);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  #add-button{
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1000px;
+    font-size: larger;
+  }
+  
+  [data-theme="dark"] {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  #theme-toggle {
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--background-light);
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  #theme-toggle:hover{
+    transition: all .3s;
+    background-color: #000000;
+  }
+  
+  #website-title{
+    transition: all .3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 5vh;
+    margin: 10px;
+     
+  }
+
+  form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 1px;
+  }
+  
+  button {
+    transition: all .3s;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transition: all .3s;
+    background-color: #000000;
+  }
+  
+  #class-list {
+    margin-bottom: 50px;
+  }
+  
+  .class-item {
+    background-color: var(--info-box-color);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .class-actions button {
+    margin-left: 10px;
+  }
+  
+  #gpa-results div {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
